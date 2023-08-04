@@ -1,0 +1,111 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+background-color: black;
+color: white;
+}
+h1{
+    text-align: center;    
+    margin-top: 2%;
+    font-size: 3rem;
+}
+#comment{
+    text-align: center;
+    margin-top: 8%;
+}
+#tagline{
+    text-align: center;
+    margin-top: -2%;
+    margin-right: 2%;
+}
+#head1{
+    margin-left: 17%;
+    margin-top: 4%;
+    font-size: 1.2rem;
+}
+#head2{
+    margin-left: 17%;
+    font-size: 1.2rem;
+}
+#input1{
+    width: 60%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 17%;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 1.2rem;
+}
+.columns{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3%;
+    font-size: 1.2rem;
+}
+.input{
+    display: flex;
+    align-items: center;
+}
+#add{
+    height: 35px;
+    width: 5%;
+    border: 0px;
+    margin-left: 1%;
+    font-size: 1.2rem;
+    background-color: blue;
+    border-radius: 5px;
+    color: white;
+}
+.item{
+    height: 70px;
+    /* border: 2px solid black; */
+    align-items: center;
+    width: 67%;
+    justify-content: space-between;
+    display: flex;
+    margin-left: 17%;
+    font-size: 1.2rem;
+}
+#delete{
+    height: 35px;
+    width: 9%;
+    border: 0px;
+    font-size: 1.2rem;
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+}
+#status{
+    height: 35px;
+    width: 9%;
+    border: 0px;
+    font-size: 1.2rem;
+    background-color: orange;
+    border-radius: 5px;
+    color: white;
+    margin-left: 2%;
+}
+#action{
+    height: 35px;
+    width: 14%;
+    border: 0px;
+    font-size: 1.2rem;
+    background-color: blue;
+    border-radius: 5px;
+    color: white;
+}
+
+#add:hover{
+    background-color: lightblue;
+    color: black;
+    cursor: pointer;
+}
+#delete:hover{
+    background-color: lightcoral;
+    color: black;
+    cursor: pointer;
+}
+#action:hover{
+    background-color: lightskyblue;
+    color: black;
+    cursor:pointer;
+}
